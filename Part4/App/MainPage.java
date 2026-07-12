@@ -44,4 +44,10 @@ public class MainPage {
             }
         }
     }
+
+    // THIS IS THE MAIN METHOD - Entry point
+public static void main(String[] args) {
+    MainPage mainPage = new MainPage();
+    mainPage.display();
+}
 }
